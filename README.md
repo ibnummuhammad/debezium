@@ -90,6 +90,10 @@ The Docker Maven Plugin will resolve the docker host by checking the following e
 
 These can be set automatically if using Docker Machine or something similar.
 
+### How to compile
+
+    mvn clean verify -Dquick
+
 ### Building the code
 
 First obtain the code by cloning the Git repository:
