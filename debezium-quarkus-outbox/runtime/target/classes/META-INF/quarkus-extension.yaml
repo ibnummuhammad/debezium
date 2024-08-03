@@ -1,0 +1,29 @@
+---
+name: "Debezium Quarkus Outbox"
+description: "Implement the outbox pattern for reliable microservices data exchange\
+  \ with Debezium and change data capture"
+metadata:
+  keywords:
+  - "debezium"
+  - "outbox"
+  - "cdc"
+  guide: "https://debezium.io/documentation/reference/2.6/transformations/outbox-event-router.html"
+  categories:
+  - "integration"
+  - "cdc"
+  status: "stable"
+  built-with-quarkus-core: "3.8.3"
+  minimum-java-version: "11"
+  scm-url: "https://github.com/debezium/debezium"
+  extension-dependencies:
+  - "io.quarkus:quarkus-hibernate-orm"
+  - "io.quarkus:quarkus-core"
+  - "io.quarkus:quarkus-agroal"
+  - "io.quarkus:quarkus-arc"
+  - "io.quarkus:quarkus-datasource"
+  - "io.quarkus:quarkus-narayana-jta"
+  - "io.quarkus:quarkus-mutiny"
+  - "io.quarkus:quarkus-smallrye-context-propagation"
+  - "io.quarkus:quarkus-caffeine"
+  - "io.quarkus:quarkus-jackson"
+artifact: "io.debezium:debezium-quarkus-outbox::jar:2.6.2.Final"

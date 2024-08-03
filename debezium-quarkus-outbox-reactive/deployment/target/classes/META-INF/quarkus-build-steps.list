@@ -1,0 +1,1 @@
+io.debezium.outbox.reactive.quarkus.deployment.OutboxProcessor

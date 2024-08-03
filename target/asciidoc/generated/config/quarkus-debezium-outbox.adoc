@@ -10,34 +10,19 @@ h|[[quarkus-debezium-outbox_configuration]]link:#quarkus-debezium-outbox_configu
 h|Type
 h|Default
 
-a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-table-name]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-table-name[quarkus.debezium-outbox.table-name]`
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-additional-fields]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-additional-fields[quarkus.debezium-outbox.additional-fields]`
 
 
 [.description]
 --
 ifdef::add-copy-button-to-env-var[]
-Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_TABLE_NAME+++[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_ADDITIONAL_FIELDS+++[]
 endif::add-copy-button-to-env-var[]
 ifndef::add-copy-button-to-env-var[]
-Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_TABLE_NAME+++`
+Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_ADDITIONAL_FIELDS+++`
 endif::add-copy-button-to-env-var[]
 --|string 
-|`OutboxEvent`
-
-
-a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-id]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-id[quarkus.debezium-outbox.id]`
-
-
-[.description]
---
-ifdef::add-copy-button-to-env-var[]
-Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_ID+++[]
-endif::add-copy-button-to-env-var[]
-ifndef::add-copy-button-to-env-var[]
-Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_ID+++`
-endif::add-copy-button-to-env-var[]
---|DebeziumOutboxConfigId 
-|required icon:exclamation-circle[title=Configuration property is required]
+|
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-aggregate-id]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-aggregate-id[quarkus.debezium-outbox.aggregate-id]`
@@ -70,33 +55,18 @@ endif::add-copy-button-to-env-var[]
 |required icon:exclamation-circle[title=Configuration property is required]
 
 
-a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-type]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-type[quarkus.debezium-outbox.type]`
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-id]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-id[quarkus.debezium-outbox.id]`
 
 
 [.description]
 --
 ifdef::add-copy-button-to-env-var[]
-Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_TYPE+++[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_ID+++[]
 endif::add-copy-button-to-env-var[]
 ifndef::add-copy-button-to-env-var[]
-Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_TYPE+++`
+Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_ID+++`
 endif::add-copy-button-to-env-var[]
---|DebeziumOutboxConfigType 
-|required icon:exclamation-circle[title=Configuration property is required]
-
-
-a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-timestamp]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-timestamp[quarkus.debezium-outbox.timestamp]`
-
-
-[.description]
---
-ifdef::add-copy-button-to-env-var[]
-Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_TIMESTAMP+++[]
-endif::add-copy-button-to-env-var[]
-ifndef::add-copy-button-to-env-var[]
-Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_TIMESTAMP+++`
-endif::add-copy-button-to-env-var[]
---|DebeziumOutboxConfigTimestamp 
+--|DebeziumOutboxConfigId 
 |required icon:exclamation-circle[title=Configuration property is required]
 
 
@@ -115,19 +85,49 @@ endif::add-copy-button-to-env-var[]
 |required icon:exclamation-circle[title=Configuration property is required]
 
 
-a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-additional-fields]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-additional-fields[quarkus.debezium-outbox.additional-fields]`
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-table-name]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-table-name[quarkus.debezium-outbox.table-name]`
 
 
 [.description]
 --
 ifdef::add-copy-button-to-env-var[]
-Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_ADDITIONAL_FIELDS+++[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_TABLE_NAME+++[]
 endif::add-copy-button-to-env-var[]
 ifndef::add-copy-button-to-env-var[]
-Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_ADDITIONAL_FIELDS+++`
+Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_TABLE_NAME+++`
 endif::add-copy-button-to-env-var[]
 --|string 
-|
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-timestamp]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-timestamp[quarkus.debezium-outbox.timestamp]`
+
+
+[.description]
+--
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_TIMESTAMP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_TIMESTAMP+++`
+endif::add-copy-button-to-env-var[]
+--|DebeziumOutboxConfigTimestamp 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-tracing-enabled]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-tracing-enabled[quarkus.debezium-outbox.tracing-enabled]`
+
+
+[.description]
+--
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_TRACING_ENABLED+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_TRACING_ENABLED+++`
+endif::add-copy-button-to-env-var[]
+--|boolean 
+|`false`
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-tracing-span]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-tracing-span[quarkus.debezium-outbox.tracing-span]`
@@ -145,49 +145,34 @@ endif::add-copy-button-to-env-var[]
 |required icon:exclamation-circle[title=Configuration property is required]
 
 
-a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-tracing-enabled]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-tracing-enabled[quarkus.debezium-outbox.tracing.enabled]`
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-type]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-type[quarkus.debezium-outbox.type]`
 
 
 [.description]
 --
 ifdef::add-copy-button-to-env-var[]
-Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_TRACING_ENABLED+++[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_TYPE+++[]
 endif::add-copy-button-to-env-var[]
 ifndef::add-copy-button-to-env-var[]
-Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_TRACING_ENABLED+++`
+Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_TYPE+++`
 endif::add-copy-button-to-env-var[]
---|boolean 
-|`true`
+--|DebeziumOutboxConfigType 
+|required icon:exclamation-circle[title=Configuration property is required]
 
 
-a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-table-name]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-table-name[quarkus.debezium-outbox.table-name]`
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-additional-fields]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-additional-fields[quarkus.debezium-outbox.additional-fields]`
 
 
 [.description]
 --
 ifdef::add-copy-button-to-env-var[]
-Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_TABLE_NAME+++[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_ADDITIONAL_FIELDS+++[]
 endif::add-copy-button-to-env-var[]
 ifndef::add-copy-button-to-env-var[]
-Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_TABLE_NAME+++`
+Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_ADDITIONAL_FIELDS+++`
 endif::add-copy-button-to-env-var[]
 --|string 
-|`OutboxEvent`
-
-
-a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-id]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-id[quarkus.debezium-outbox.id]`
-
-
-[.description]
---
-ifdef::add-copy-button-to-env-var[]
-Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_ID+++[]
-endif::add-copy-button-to-env-var[]
-ifndef::add-copy-button-to-env-var[]
-Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_ID+++`
-endif::add-copy-button-to-env-var[]
---|DebeziumOutboxConfigId 
-|required icon:exclamation-circle[title=Configuration property is required]
+|
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-aggregate-id]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-aggregate-id[quarkus.debezium-outbox.aggregate-id]`
@@ -220,33 +205,18 @@ endif::add-copy-button-to-env-var[]
 |required icon:exclamation-circle[title=Configuration property is required]
 
 
-a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-type]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-type[quarkus.debezium-outbox.type]`
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-id]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-id[quarkus.debezium-outbox.id]`
 
 
 [.description]
 --
 ifdef::add-copy-button-to-env-var[]
-Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_TYPE+++[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_ID+++[]
 endif::add-copy-button-to-env-var[]
 ifndef::add-copy-button-to-env-var[]
-Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_TYPE+++`
+Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_ID+++`
 endif::add-copy-button-to-env-var[]
---|DebeziumOutboxConfigType 
-|required icon:exclamation-circle[title=Configuration property is required]
-
-
-a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-timestamp]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-timestamp[quarkus.debezium-outbox.timestamp]`
-
-
-[.description]
---
-ifdef::add-copy-button-to-env-var[]
-Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_TIMESTAMP+++[]
-endif::add-copy-button-to-env-var[]
-ifndef::add-copy-button-to-env-var[]
-Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_TIMESTAMP+++`
-endif::add-copy-button-to-env-var[]
---|DebeziumOutboxConfigTimestamp 
+--|DebeziumOutboxConfigId 
 |required icon:exclamation-circle[title=Configuration property is required]
 
 
@@ -265,19 +235,49 @@ endif::add-copy-button-to-env-var[]
 |required icon:exclamation-circle[title=Configuration property is required]
 
 
-a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-additional-fields]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-additional-fields[quarkus.debezium-outbox.additional-fields]`
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-table-name]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-table-name[quarkus.debezium-outbox.table-name]`
 
 
 [.description]
 --
 ifdef::add-copy-button-to-env-var[]
-Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_ADDITIONAL_FIELDS+++[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_TABLE_NAME+++[]
 endif::add-copy-button-to-env-var[]
 ifndef::add-copy-button-to-env-var[]
-Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_ADDITIONAL_FIELDS+++`
+Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_TABLE_NAME+++`
 endif::add-copy-button-to-env-var[]
 --|string 
-|
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-timestamp]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-timestamp[quarkus.debezium-outbox.timestamp]`
+
+
+[.description]
+--
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_TIMESTAMP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_TIMESTAMP+++`
+endif::add-copy-button-to-env-var[]
+--|DebeziumOutboxConfigTimestamp 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-tracing-enabled]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-tracing-enabled[quarkus.debezium-outbox.tracing-enabled]`
+
+
+[.description]
+--
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_TRACING_ENABLED+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_TRACING_ENABLED+++`
+endif::add-copy-button-to-env-var[]
+--|boolean 
+|`false`
 
 
 a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-tracing-span]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-tracing-span[quarkus.debezium-outbox.tracing-span]`
@@ -295,48 +295,48 @@ endif::add-copy-button-to-env-var[]
 |required icon:exclamation-circle[title=Configuration property is required]
 
 
-a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-tracing-enabled]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-tracing-enabled[quarkus.debezium-outbox.tracing.enabled]`
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-type]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-type[quarkus.debezium-outbox.type]`
 
 
 [.description]
 --
 ifdef::add-copy-button-to-env-var[]
-Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_TRACING_ENABLED+++[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_TYPE+++[]
 endif::add-copy-button-to-env-var[]
 ifndef::add-copy-button-to-env-var[]
-Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_TRACING_ENABLED+++`
+Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_TYPE+++`
 endif::add-copy-button-to-env-var[]
---|boolean 
-|`true`
+--|DebeziumOutboxConfigType 
+|required icon:exclamation-circle[title=Configuration property is required]
 
 
-a| [[quarkus-debezium-outbox_quarkus-debezium-outbox-remove-after-insert]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-remove-after-insert[quarkus.debezium-outbox.remove-after-insert]`
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-runtime-remove-after-insert]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-runtime-remove-after-insert[quarkus.debezium-outbox-runtime.remove-after-insert]`
 
 
 [.description]
 --
 ifdef::add-copy-button-to-env-var[]
-Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_REMOVE_AFTER_INSERT+++[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_RUNTIME_REMOVE_AFTER_INSERT+++[]
 endif::add-copy-button-to-env-var[]
 ifndef::add-copy-button-to-env-var[]
-Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_REMOVE_AFTER_INSERT+++`
+Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_RUNTIME_REMOVE_AFTER_INSERT+++`
 endif::add-copy-button-to-env-var[]
 --|boolean 
-|`true`
+|`false`
 
 
-a| [[quarkus-debezium-outbox_quarkus-debezium-outbox-remove-after-insert]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-remove-after-insert[quarkus.debezium-outbox.remove-after-insert]`
+a|icon:lock[title=Fixed at build time] [[quarkus-debezium-outbox_quarkus-debezium-outbox-runtime-remove-after-insert]]`link:#quarkus-debezium-outbox_quarkus-debezium-outbox-runtime-remove-after-insert[quarkus.debezium-outbox-runtime.remove-after-insert]`
 
 
 [.description]
 --
 ifdef::add-copy-button-to-env-var[]
-Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_REMOVE_AFTER_INSERT+++[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_DEBEZIUM_OUTBOX_RUNTIME_REMOVE_AFTER_INSERT+++[]
 endif::add-copy-button-to-env-var[]
 ifndef::add-copy-button-to-env-var[]
-Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_REMOVE_AFTER_INSERT+++`
+Environment variable: `+++QUARKUS_DEBEZIUM_OUTBOX_RUNTIME_REMOVE_AFTER_INSERT+++`
 endif::add-copy-button-to-env-var[]
 --|boolean 
-|`true`
+|`false`
 
 |===
