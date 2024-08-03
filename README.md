@@ -92,7 +92,7 @@ These can be set automatically if using Docker Machine or something similar.
 
 ### How to compile
 
-    mvn clean verify -Dquick
+    mvn clean package -DskipTests
 
 ### Building the code
 
