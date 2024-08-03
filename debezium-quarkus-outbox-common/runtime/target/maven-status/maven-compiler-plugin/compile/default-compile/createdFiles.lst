@@ -1,0 +1,7 @@
+io/debezium/outbox/quarkus/ExportedEvent.class
+io/debezium/outbox/quarkus/internal/DataMapTracingSetter.class
+io/debezium/outbox/quarkus/internal/AbstractEventWriter.class
+io/debezium/outbox/quarkus/internal/JsonNodeAttributeConverter.class
+io/debezium/outbox/quarkus/internal/OutboxConstants.class
+io/debezium/outbox/quarkus/internal/AdditionalJaxbMappingProducerImpl.class
+io/debezium/outbox/quarkus/internal/DebeziumOutboxCommonRuntimeConfig.class

@@ -1,0 +1,5 @@
+io/debezium/outbox/quarkus/deployment/OutboxProcessor.class
+io/debezium/outbox/quarkus/deployment/OutboxProcessor$$accessor.class
+META-INF/quarkus-config-roots.list
+io/debezium/outbox/quarkus/deployment/DebeziumOutboxConfig.class
+META-INF/quarkus-build-steps.list

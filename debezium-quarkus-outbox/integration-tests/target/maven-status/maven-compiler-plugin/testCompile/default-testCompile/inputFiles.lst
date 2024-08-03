@@ -1,0 +1,7 @@
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox/integration-tests/src/test/java/io/debezium/outbox/quarkus/it/DatabaseTestResource.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox/integration-tests/src/test/java/io/debezium/outbox/quarkus/it/OutboxProfiles.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox/integration-tests/src/test/java/io/debezium/outbox/quarkus/it/OutboxIT.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox/integration-tests/src/test/java/io/debezium/outbox/quarkus/it/AbstractOutboxTest.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox/integration-tests/src/test/java/io/debezium/outbox/quarkus/it/TestAsserts.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox/integration-tests/src/test/java/io/debezium/outbox/quarkus/it/OutboxTest.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox/integration-tests/src/test/java/io/debezium/outbox/quarkus/it/OutboxWithoutOpenTelemetryTest.java

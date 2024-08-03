@@ -1,0 +1,11 @@
+io/debezium/transforms/Filter.class
+io/debezium/transforms/scripting/Engine.class
+io/debezium/transforms/scripting/GraalJsEngine.class
+io/debezium/transforms/ScriptingTransformation.class
+io/debezium/transforms/ScriptingTransformation$NullHandling.class
+io/debezium/transforms/scripting/Jsr223Engine.class
+io/debezium/transforms/Module.class
+io/debezium/transforms/scripting/GraalJsEngine$2.class
+io/debezium/transforms/scripting/RecordHeader.class
+io/debezium/transforms/scripting/GraalJsEngine$1.class
+io/debezium/transforms/ContentBasedRouter.class

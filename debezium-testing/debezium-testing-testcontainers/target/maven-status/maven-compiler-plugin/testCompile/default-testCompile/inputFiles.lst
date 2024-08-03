@@ -1,0 +1,6 @@
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-testing/debezium-testing-testcontainers/src/test/java/io/debezium/testing/testcontainers/DebeziumContainerTest.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-testing/debezium-testing-testcontainers/src/test/java/io/debezium/testing/testcontainers/ApicurioRegistryTest.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-testing/debezium-testing-testcontainers/src/test/java/io/debezium/testing/testcontainers/MongoDbReplicaSetTest.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-testing/debezium-testing-testcontainers/src/test/java/io/debezium/testing/testcontainers/ConnectorConfigurationTest.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-testing/debezium-testing-testcontainers/src/test/java/io/debezium/testing/testcontainers/MongoDbReplicaSetAuthTest.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-testing/debezium-testing-testcontainers/src/test/java/io/debezium/testing/testcontainers/MongoDbShardedClusterTest.java

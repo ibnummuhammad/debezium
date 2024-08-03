@@ -1,0 +1,12 @@
+io/debezium/outbox/quarkus/deployment/OutboxCommonProcessor.class
+io/debezium/outbox/quarkus/deployment/DebeziumOutboxCommonConfig$DebeziumOutboxConfigId.class
+io/debezium/outbox/quarkus/deployment/DebeziumOutboxCommonConfig$DebeziumOutboxConfigAggregateId.class
+io/debezium/outbox/quarkus/deployment/DebeziumOutboxCommonConfig.class
+META-INF/panache-archive.marker
+io/debezium/outbox/quarkus/deployment/DebeziumOutboxCommonConfig$DebeziumOutboxConfigPayload.class
+io/debezium/outbox/quarkus/deployment/DebeziumOutboxCommonConfig$DebeziumOutboxConfigAggregateType.class
+io/debezium/outbox/quarkus/deployment/DebeziumOutboxCommonConfig$DebeziumOutboxConfigType.class
+io/debezium/outbox/quarkus/deployment/OutboxEventHbmWriter.class
+io/debezium/outbox/quarkus/deployment/DebeziumOutboxCommonConfig$DebeziumOutboxConfigTimestamp.class
+io/debezium/outbox/quarkus/deployment/DebeziumOutboxCommonConfig$DebeziumOutboxConfigTracingSpan.class
+io/debezium/outbox/quarkus/deployment/OutboxEventEntityBuildItem.class

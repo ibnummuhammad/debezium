@@ -1,0 +1,7 @@
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox-common/runtime/src/main/java/io/debezium/outbox/quarkus/internal/DataMapTracingSetter.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox-common/runtime/src/main/java/io/debezium/outbox/quarkus/internal/DebeziumOutboxCommonRuntimeConfig.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox-common/runtime/src/main/java/io/debezium/outbox/quarkus/internal/OutboxConstants.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox-common/runtime/src/main/java/io/debezium/outbox/quarkus/ExportedEvent.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox-common/runtime/src/main/java/io/debezium/outbox/quarkus/internal/JsonNodeAttributeConverter.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox-common/runtime/src/main/java/io/debezium/outbox/quarkus/internal/AdditionalJaxbMappingProducerImpl.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox-common/runtime/src/main/java/io/debezium/outbox/quarkus/internal/AbstractEventWriter.java

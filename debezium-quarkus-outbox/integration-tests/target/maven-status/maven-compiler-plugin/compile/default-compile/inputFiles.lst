@@ -1,0 +1,4 @@
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox/integration-tests/src/main/java/io/debezium/outbox/quarkus/it/TestEntity.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox/integration-tests/src/main/java/io/debezium/outbox/quarkus/it/UpperCaseAttributeConverter.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox/integration-tests/src/main/java/io/debezium/outbox/quarkus/it/MyService.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox/integration-tests/src/main/java/io/debezium/outbox/quarkus/it/MyOutboxEvent.java

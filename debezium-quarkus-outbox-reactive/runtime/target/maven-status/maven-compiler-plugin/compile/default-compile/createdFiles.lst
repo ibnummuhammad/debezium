@@ -1,0 +1,8 @@
+io/debezium/outbox/reactive/quarkus/internal/AbstractEventDispatcher.class
+io/debezium/outbox/reactive/quarkus/internal/DefaultEventDispatcher.class
+io/debezium/outbox/reactive/quarkus/internal/DebeziumTracerEventDispatcher.class
+io/debezium/outbox/reactive/quarkus/internal/DebeziumOutboxRuntimeConfig.class
+io/debezium/outbox/reactive/quarkus/internal/EventDispatcher.class
+META-INF/quarkus-config-roots.list
+io/debezium/outbox/reactive/quarkus/DebeziumCustomCodec.class
+io/debezium/outbox/reactive/quarkus/internal/DebeziumOutboxHandler.class

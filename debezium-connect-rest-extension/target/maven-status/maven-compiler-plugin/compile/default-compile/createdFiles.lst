@@ -1,0 +1,9 @@
+io/debezium/kcrestextension/entities/PluginDefinition.class
+io/debezium/kcrestextension/entities/TransformDefinition.class
+io/debezium/kcrestextension/DebeziumConnectRestExtension.class
+io/debezium/kcrestextension/entities/PredicateDefinition.class
+io/debezium/kcrestextension/entities/PropertyDescriptor.class
+io/debezium/kcrestextension/Module.class
+io/debezium/kcrestextension/entities/PropertyDescriptor$JsonType.class
+io/debezium/kcrestextension/entities/PropertyDescriptor$1.class
+io/debezium/kcrestextension/DebeziumResource.class

@@ -1,0 +1,10 @@
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-storage/debezium-storage-redis/src/main/java/io/debezium/storage/redis/RedisConnection.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-storage/debezium-storage-redis/src/main/java/io/debezium/storage/redis/WaitReplicasRedisClient.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-storage/debezium-storage-redis/src/main/java/io/debezium/storage/redis/RedisClient.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-storage/debezium-storage-redis/src/main/java/io/debezium/storage/redis/offset/RedisOffsetBackingStoreConfig.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-storage/debezium-storage-redis/src/main/java/io/debezium/storage/redis/history/RedisSchemaHistory.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-storage/debezium-storage-redis/src/main/java/io/debezium/storage/redis/JedisClient.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-storage/debezium-storage-redis/src/main/java/io/debezium/storage/redis/offset/RedisOffsetBackingStore.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-storage/debezium-storage-redis/src/main/java/io/debezium/storage/redis/history/RedisSchemaHistoryConfig.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-storage/debezium-storage-redis/src/main/java/io/debezium/storage/redis/RedisCommonConfig.java
+/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-storage/debezium-storage-redis/src/main/java/io/debezium/storage/redis/RedisClientConnectionException.java

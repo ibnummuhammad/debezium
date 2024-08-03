@@ -1,0 +1,3 @@
+io/debezium/tracing/OpenTelemetryInterceptorVersion.class
+io/debezium/tracing/KafkaProducerRecordGetter.class
+io/debezium/tracing/DebeziumTracingProducerInterceptor.class

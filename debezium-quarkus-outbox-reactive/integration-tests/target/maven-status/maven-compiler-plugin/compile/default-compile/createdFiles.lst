@@ -1,0 +1,4 @@
+io/debezium/outbox/reactive/quarkus/it/TestEntity.class
+io/debezium/outbox/reactive/quarkus/it/UpperCaseAttributeConverter.class
+io/debezium/outbox/reactive/quarkus/it/MyOutboxEvent.class
+io/debezium/outbox/reactive/quarkus/it/MyService.class
