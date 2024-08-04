@@ -1,2 +1,0 @@
-io.debezium.converters.BinaryDataConverter
-io.debezium.converters.ByteArrayConverter

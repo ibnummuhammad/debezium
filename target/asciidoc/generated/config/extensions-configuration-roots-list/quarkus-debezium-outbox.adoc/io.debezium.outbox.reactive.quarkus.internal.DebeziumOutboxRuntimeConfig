@@ -1,1 +1,0 @@
-io.debezium.outbox.reactive.quarkus.internal.DebeziumOutboxRuntimeConfig

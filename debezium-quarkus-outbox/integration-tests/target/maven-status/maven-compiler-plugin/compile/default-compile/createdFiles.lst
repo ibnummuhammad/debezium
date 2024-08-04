@@ -1,4 +1,0 @@
-io/debezium/outbox/quarkus/it/UpperCaseAttributeConverter.class
-io/debezium/outbox/quarkus/it/MyOutboxEvent.class
-io/debezium/outbox/quarkus/it/TestEntity.class
-io/debezium/outbox/quarkus/it/MyService.class

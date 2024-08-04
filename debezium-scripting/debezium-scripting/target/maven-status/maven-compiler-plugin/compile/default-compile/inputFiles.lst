@@ -1,8 +1,0 @@
-/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-scripting/debezium-scripting/src/main/java/io/debezium/transforms/ContentBasedRouter.java
-/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-scripting/debezium-scripting/src/main/java/io/debezium/transforms/scripting/Engine.java
-/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-scripting/debezium-scripting/src/main/java/io/debezium/transforms/Module.java
-/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-scripting/debezium-scripting/src/main/java/io/debezium/transforms/ScriptingTransformation.java
-/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-scripting/debezium-scripting/src/main/java/io/debezium/transforms/Filter.java
-/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-scripting/debezium-scripting/src/main/java/io/debezium/transforms/scripting/Jsr223Engine.java
-/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-scripting/debezium-scripting/src/main/java/io/debezium/transforms/scripting/GraalJsEngine.java
-/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-scripting/debezium-scripting/src/main/java/io/debezium/transforms/scripting/RecordHeader.java

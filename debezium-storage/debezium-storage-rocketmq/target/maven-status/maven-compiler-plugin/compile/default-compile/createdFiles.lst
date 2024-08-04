@@ -1,6 +1,0 @@
-io/debezium/storage/rocketmq/RocketMqAdminUtil.class
-io/debezium/storage/rocketmq/history/RocketMqSchemaHistory.class
-io/debezium/storage/rocketmq/RocketMqConfig$Builder.class
-io/debezium/storage/rocketmq/history/RocketMqSchemaHistory$1.class
-io/debezium/storage/rocketmq/ZeroMessageQueueSelector.class
-io/debezium/storage/rocketmq/RocketMqConfig.class

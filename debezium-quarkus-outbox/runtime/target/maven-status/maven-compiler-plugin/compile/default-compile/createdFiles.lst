@@ -1,6 +1,0 @@
-io/debezium/outbox/quarkus/internal/DebeziumOutboxRuntimeConfig.class
-io/debezium/outbox/quarkus/internal/DebeziumTracerEventDispatcher.class
-io/debezium/outbox/quarkus/internal/EventDispatcher.class
-io/debezium/outbox/quarkus/internal/AbstractEventDispatcher.class
-io/debezium/outbox/quarkus/internal/DefaultEventDispatcher.class
-META-INF/quarkus-config-roots.list

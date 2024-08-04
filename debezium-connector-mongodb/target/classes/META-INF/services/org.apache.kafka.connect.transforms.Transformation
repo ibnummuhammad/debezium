@@ -1,2 +1,0 @@
-io.debezium.connector.mongodb.transforms.ExtractNewDocumentState
-io.debezium.connector.mongodb.transforms.outbox.MongoEventRouter

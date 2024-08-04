@@ -1,7 +1,0 @@
-io/debezium/storage/jdbc/JdbcOffsetBackingStoreTest$1.class
-io/debezium/storage/jdbc/history/JdbcSchemaHistoryTest.class
-io/debezium/storage/jdbc/JdbcOffsetBackingStoreTest$2.class
-io/debezium/storage/jdbc/history/JdbcSchemaHistoryIT.class
-io/debezium/storage/jdbc/JdbcOffsetBackingStoreIT.class
-io/debezium/storage/jdbc/history/TestingAntlrDdlParser.class
-io/debezium/storage/jdbc/JdbcOffsetBackingStoreTest.class

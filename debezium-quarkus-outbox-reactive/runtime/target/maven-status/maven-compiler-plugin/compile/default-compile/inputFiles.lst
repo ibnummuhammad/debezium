@@ -1,7 +1,0 @@
-/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox-reactive/runtime/src/main/java/io/debezium/outbox/reactive/quarkus/DebeziumCustomCodec.java
-/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox-reactive/runtime/src/main/java/io/debezium/outbox/reactive/quarkus/internal/EventDispatcher.java
-/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox-reactive/runtime/src/main/java/io/debezium/outbox/reactive/quarkus/internal/DebeziumOutboxRuntimeConfig.java
-/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox-reactive/runtime/src/main/java/io/debezium/outbox/reactive/quarkus/internal/DebeziumTracerEventDispatcher.java
-/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox-reactive/runtime/src/main/java/io/debezium/outbox/reactive/quarkus/internal/DebeziumOutboxHandler.java
-/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox-reactive/runtime/src/main/java/io/debezium/outbox/reactive/quarkus/internal/AbstractEventDispatcher.java
-/Users/ibnu.muhammad/Documents/github/ibnummuhammad/debezium/debezium-quarkus-outbox-reactive/runtime/src/main/java/io/debezium/outbox/reactive/quarkus/internal/DefaultEventDispatcher.java

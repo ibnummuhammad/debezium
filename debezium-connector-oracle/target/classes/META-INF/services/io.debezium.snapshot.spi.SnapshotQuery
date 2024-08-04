@@ -1,1 +1,0 @@
-io.debezium.connector.oracle.snapshot.query.SelectAllSnapshotQuery

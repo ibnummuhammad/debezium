@@ -1,2 +1,0 @@
-io.debezium.connector.oracle.logminer.processor.infinispan.marshalling.LogMinerEventMarshallerImpl
-io.debezium.connector.oracle.logminer.processor.infinispan.marshalling.TransactionMarshallerImpl

@@ -1,7 +1,0 @@
-io/debezium/testing/testcontainers/MongoDbReplicaSetTest.class
-io/debezium/testing/testcontainers/MongoDbShardedClusterTest.class
-io/debezium/testing/testcontainers/ApicurioRegistryTest.class
-io/debezium/testing/testcontainers/DebeziumContainerTest.class
-io/debezium/testing/testcontainers/MongoDbReplicaSetTest$ResumableCursorException.class
-io/debezium/testing/testcontainers/MongoDbReplicaSetAuthTest.class
-io/debezium/testing/testcontainers/ConnectorConfigurationTest.class
