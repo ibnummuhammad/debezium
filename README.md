@@ -94,6 +94,10 @@ These can be set automatically if using Docker Machine or something similar.
 
     mvn clean package -DskipTests
 
+    cp ~/Documents/github/ibnummuhammad/debezium/debezium-api/target/debezium-api-2.6.2.Final.jar ~/Documents/github/ibnummuhammad/debezium-examples/unwrap-smt/debezium-jdbc-es/debezium-api-2.6.2.Final.jar
+    cp ~/Documents/github/ibnummuhammad/debezium/debezium-connector-postgres/target/debezium-connector-postgres-2.6.2.Final.jar ~/Documents/github/ibnummuhammad/debezium-examples/unwrap-smt/debezium-jdbc-es/debezium-connector-postgres-2.6.2.Final.jar
+    cp ~/Documents/github/ibnummuhammad/debezium/debezium-core/target/debezium-core-2.6.2.Final.jar ~/Documents/github/ibnummuhammad/debezium-examples/unwrap-smt/debezium-jdbc-es/debezium-core-2.6.2.Final.jar
+
 ### Building the code
 
 First obtain the code by cloning the Git repository:
